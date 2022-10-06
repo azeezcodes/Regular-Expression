@@ -184,6 +184,15 @@ let wsRegex = /^\s+|\s+$/g; // Change this line
 let relt = hello.replace(wsRegex, ""); // Change this line
 console.log(result);
 
+
+//---------------remove first word and last word --------------------
+
+const removeChar = (str) => str.replace(/^.|.$/g, "");
+OR
+const removehar = (str) => str.replace(/^\w|\w$/g, "");
+
+
+
 // SUMMARRY
 
 // Character classes
